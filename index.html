@@ -1,35 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
     <title>Magnolia</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type=text/css href ="./styles/style.css">
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
     </style>
-    <link rel="stylesheet" type=text/css href="./styles/style.css" href = >
+
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="./js/functions.js"></script>
   </head>
+
   <body>
+
     <style>
     body {
-      background-image: url('homeBackground.jpg');
+      background-image: url('./images/homeBackgroundTriple.png');
     }
     </style>
-    <h1>Magnolia</h1>
-    <hr/>
+
+
+
     <img src="https://cdn.discordapp.com/attachments/786713631558860841/793373443700817940/magnoliagif1-1.gif" id='homeLogo'>
     <div class="navbar">
-      <a href="contact.html">Contact Us </a>
-      <a href="about.html">About Us </a>
-      <a href="shop.html">Shop </a>
+      <a href="rules.html">Rules</a>
+      <button class="button" id="joinButton2" onclick="joinDiscord()">Join</button>
     </div>
-    <button id='joinButton' onclick="myFunction()">Join</button>
-    <script>
-      function joinDiscord() {
-        <a href="https://discord.gg/Krkb42XYjH" target="_blank"></a>
-      }
-    </script>
+    <button class="button" id="joinButton" onclick="joinDiscord()">Join</button>
 
+    <div class="header">
+      <h1>Magnolia</h1>
+    </div>
 
+    <h2 class='caption' id='introBlurb'>
+      An Elite Cook Group Turning Beginners Into Chefs
+    </h2>
 
   <footer>
     @2020 Magnolia Cook Group
