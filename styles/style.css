@@ -13,14 +13,31 @@ p {
 footer {
   font-family: 'Lato', 'sans-serif';
   position: absolute;
-  bottom: 10px;
-  width: 100%;
-  color: white;
+  top: 210%;
+  width:100%;
   text-align: center;
+  color: #FFFFFF;
+}
+
+html, body {
+  margin: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 .header {
@@ -37,7 +54,7 @@ a {
   position: absolute;
   font-size: 40px;
   top: 30px;
-  left: 1660px;
+  left: 1620px;
   padding: none;
   margin: none;
   color: #FFFFFF;
@@ -45,25 +62,67 @@ a {
 
 .button {
   font-family: 'Lato', 'sans-serif';
+  font-weight: 700;
   background-color: #61531b;
   color: #FFFFFF;
   text-align: center;
-  margin: 0px;
   cursor: pointer;
   transition-duration: 0.3s;
   outline: none;
   border-color: #61531b;
+  text-decoration: none;
 }
 
+.button:hover {
+  transform: scale(1.15) perspective(1000px);
+}
+
+.featureRight {
+  font-family: 'Lato', 'sans-serif';
+  color: #c4c4c4;
+  position: absolute;
+  left: 65%;
+}
+
+.featureLeft {
+  font-family: 'Lato', 'sans-serif';
+  color: #c4c4c4;
+  position: absolute;
+  left: 15%;
+  top: 1700px;
+}
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #000000 url('./images/homeLogoTransparent.gif') no-repeat center center;
+}
+
+#loadingGif {
+  position: absolute;
+  top: 200px;
+  left: 37%;
+}
 
 #homeLogo {
   position: absolute;
   margin: auto;
   top: 30px;
   width: 20%;
-  left: 810px;
+  left: 785px;
   size: 300px;
-  border-radius: 10px;
+}
+
+#homeLogo2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: auto;
+  top: 15px;
+  left: 15px;
 }
 
 #joinButton {
@@ -71,21 +130,15 @@ a {
   position: absolute;
   left: 70%;
   top: 550px;
-  padding: 20px 50px;
+  padding: 20px 60px;
   border-radius: 20px;
 }
 
 #joinButton2 {
-  font-size: 50px;
-  border-radius: 5px;
-  size: 70px;
-  margin-left: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-#joinButton:hover, #joinButton2:hover {
-  size: 100px;
+  font-size: 40px;
+  border-radius: 16.6667px;
+  margin-left: 50px;
+  padding: 20px, 60px;
 }
 
 #introBlurb {
@@ -96,4 +149,23 @@ a {
   top: 700px;
   left: 75px;
   font-size:
+}
+
+#rulesHeader {
+  font-family: 'Lato', 'sans-serif';
+  font-size: 48px;
+  color: #FFFFFF;
+  top: 200px;
+  text-align: center;
+}
+
+#rulesList {
+  font-family: 'Lato', 'sans-serif';
+  font-size: 40px;
+  color: #c4c4c4;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  left: 16%;
+
 }
