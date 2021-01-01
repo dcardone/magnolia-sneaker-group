@@ -77,6 +77,17 @@ a {
   transform: scale(1.15) perspective(1000px);
 }
 
+.featureImageRight {
+  position: absolute;
+  left: 69%;
+}
+
+.featureImageLeft {
+  height: 200px;
+  width: 200px;
+  left: 20%;
+}
+
 .featureRight {
   font-family: 'Lato', 'sans-serif';
   color: #c4c4c4;
@@ -167,5 +178,9 @@ a {
   text-align: center;
   top: 200px;
   left: 16%;
+}
 
+#featureImage2 {
+  position: absolute;
+  top: 1000px;
 }

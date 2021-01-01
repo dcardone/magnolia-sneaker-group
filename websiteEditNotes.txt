@@ -9,3 +9,5 @@ DONE
 - Add spaces inbetween letters in the introBlurb
 ---------------------------------------------------------------------
 WORKING
+
+- Add features
