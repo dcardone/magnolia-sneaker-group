@@ -13,8 +13,8 @@ p {
 footer {
   font-family: 'Lato', 'sans-serif';
   position: absolute;
-  top: 210%;
-  width:100%;
+  top: 2750px;
+  width: 100%;
   text-align: center;
   color: #FFFFFF;
 }
@@ -54,7 +54,7 @@ a {
   position: absolute;
   font-size: 40px;
   top: 30px;
-  left: 1620px;
+  left: 1600px;
   padding: none;
   margin: none;
   color: #FFFFFF;
@@ -79,28 +79,45 @@ a {
 
 .featureImageRight {
   position: absolute;
-  left: 69%;
+  left: 68%;
 }
 
 .featureImageLeft {
-  height: 200px;
-  width: 200px;
+  position: absolute;
   left: 20%;
 }
 
 .featureRight {
   font-family: 'Lato', 'sans-serif';
-  color: #c4c4c4;
   position: absolute;
-  left: 65%;
+  left: 62%;
 }
 
 .featureLeft {
   font-family: 'Lato', 'sans-serif';
-  color: #c4c4c4;
   position: absolute;
   left: 15%;
-  top: 1700px;
+}
+
+.featureHeader {
+  font-family: 'Lato', 'sans-serif';
+  color: #FFFFFF;
+  font-size: 50px;
+  text-align: center;
+  width: 500px;
+}
+
+.featureCaption {
+  font-family: 'Lato', 'sans-serif';
+  color: #c4c4c4;
+  font-size: 30px;
+  text-align: center;
+  width: 500px;
+}
+
+#footer2 {
+  position: absolute;
+  bottom: 10px;
 }
 
 #loader {
@@ -149,7 +166,8 @@ a {
   font-size: 40px;
   border-radius: 16.6667px;
   margin-left: 50px;
-  padding: 20px, 60px;
+  width: 130px;
+  height: 65px;
 }
 
 #introBlurb {
@@ -180,7 +198,102 @@ a {
   left: 16%;
 }
 
+
+#featureImage1 {
+  position: absolute;
+  top: 1000px;
+
+}
+
+#feature1Header {
+  position: absolute;
+  top: 1300px;
+}
+
+#feature1 {
+  position: absolute;
+  top: 1375px;
+}
+
+
 #featureImage2 {
   position: absolute;
   top: 1000px;
+}
+
+#feature2Header {
+  position: absolute;
+  top: 1300px;
+}
+
+#feature2 {
+  position: absolute;
+  top: 1375px;
+}
+
+
+#featureImage3 {
+  position: absolute;
+  left: -75px;
+  top: 1550px;
+}
+
+#feature3Header {
+  position: absolute;
+  top: 1900px;
+}
+
+#feature3 {
+  position: absolute;
+  top: 1975px;
+}
+
+
+#featureImage4 {
+  position: absolute;
+  top: 1600px;
+}
+
+#feature4Header {
+  position: absolute;
+  top: 1900px;
+}
+
+#feature4 {
+  position: absolute;
+  top: 1975px;
+}
+
+
+#featureImage5 {
+  position: absolute;
+  top: 2200px;
+
+}
+
+#feature5Header {
+  position: absolute;
+  top: 2500px;
+}
+
+#feature5 {
+  position: absolute;
+  top: 2575px;
+}
+
+
+#featureImage6 {
+  position: absolute;
+  top: 2200px;
+
+}
+
+#feature6Header {
+  position: absolute;
+  top: 2500px;
+}
+
+#feature6 {
+  position: absolute;
+  top: 2575px;
 }
